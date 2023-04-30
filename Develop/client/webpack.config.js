@@ -4,15 +4,15 @@ const path = require('path');
 const { InjectManifest } = require('workbox-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
-// TODO: Add and configure workbox plugins for a service worker and manifest file.
-// TODO: Add CSS loaders and babel to webpack.
-
 module.exports = () => {
   return {
     mode: "development",
     entry: {
       main: "./src/js/index.js",
       install: "./src/js/install.js",
+      database: "./src/js/database.js",
+      editor: "./src/js/editor.js",
+      header: "./src/js/header.js",
     },
     output: {
       filename: "[name].bundle.js",
@@ -22,7 +22,7 @@ module.exports = () => {
       // Webpack plugin that generates our html file and injects our bundles.
       new HtmlWebpackPlugin({
         template: "./index.html",
-        title: "Contact Cards",
+        title: "JATE",
       }),
       new MiniCssExtractPlugin(),
       // Injects our custom service worker
@@ -46,7 +46,7 @@ module.exports = () => {
           {
             src: path.resolve("src/images/logo.png"),
             sizes: [96, 128, 192, 256, 384, 512],
-            destination: path.join("assets", "icons"),
+            destination: path.join("images", "icons"),
           },
         ],
       }),
