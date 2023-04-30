@@ -12,11 +12,11 @@
   * [License](#license)
   * [Questions](#questions)
 
-  ## Description 
+## Description 
 
 This is a browser-based single-page program that serves as a text editor. The program satisfies the requirements for being a Progressive Web App (PWA), which means it can operate offline and has a variety of data persistence strategies in place to act as redundancy in the event that one of the choices is not supported by the browser.
 
-  ## Dependencies  
+## Dependencies  
 
 * babel-loader: 8.2.2
 * css-loader: 6.2.0
@@ -33,7 +33,7 @@ This is a browser-based single-page program that serves as a text editor. The pr
 * idb: 6.1.2
 You can find more information about each dependency in the project's package.json file.
 
-  ## Usage 
+ ## Usage 
 
   1. Create your own repository using the starter code by cloning the starter code repository. 
   2. In order to launch the backend and serve the client, run npm run start from the root directory.
@@ -46,9 +46,9 @@ You can find more information about each dependency in the project's package.jso
 
   ## Built with
 
-idb - a lightweight wrapper around the IndexedDB API used for storing and retrieving data
-Webpack - used for bundling JavaScript files and generating an HTML file, service worker, and manifest file
-Workbox - used for registering a service worker and pre-caching static assets upon loading
+* idb - a lightweight wrapper around the IndexedDB API used for storing and retrieving data
+* Webpack - used for bundling JavaScript files and generating an HTML file, service worker, and manifest file
+* Workbox - used for registering a service worker and pre-caching static assets upon loading
 
   ## Screenshots
 
