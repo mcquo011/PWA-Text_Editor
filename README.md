@@ -52,7 +52,7 @@ You can find more information about each dependency in the project's package.jso
 
   ## Screenshots
 
-![Alt Text](./Develop/client/src/images/Screen%20Shot%202023-04-30%20at%205.44.39%20PM.png?raw=true)
+![Alt Text](./client/src/images/Screen%20Shot%202023-04-30%20at%205.44.39%20PM.png?raw=true)
 
   ## Contributers 
 
