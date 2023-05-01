@@ -14,7 +14,7 @@
 
 ## Description 
 
-This is a browser-based single-page program that serves as a text editor. The program satisfies the requirements for being a Progressive Web App (PWA), which means it can operate offline and has a variety of data persistence strategies in place to act as redundancy in the event that one of the choices is not supported by the browser.
+This is a text editor program that runs in a web browser and meets the requirements for being a Progressive Web App (PWA). As a PWA, the program is capable of functioning offline and includes multiple data persistence strategies as a fallback in case the browser doesn't support a particular strategy.
 
 ## Dependencies  
 
