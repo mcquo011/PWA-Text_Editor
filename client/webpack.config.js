@@ -8,12 +8,13 @@ module.exports = () => {
   return {
     mode: "development",
     entry: {
-      main: "./src/js/index.js",
-      install: "./src/js/install.js",
-      database: "./src/js/database.js",
-      editor: "./src/js/editor.js",
-      header: "./src/js/header.js",
+      main: path.resolve(__dirname, "src/js/index.js"),
+      install: path.resolve(__dirname, "src/js/install.js"),
+      database: path.resolve(__dirname, "src/js/database.js"),
+      editor: path.resolve(__dirname, "src/js/editor.js"),
+      header: path.resolve(__dirname, "src/js/header.js"),
     },
+
     output: {
       filename: "[name].bundle.js",
       path: path.resolve(__dirname, "dist"),
